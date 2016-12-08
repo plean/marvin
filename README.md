@@ -1,10 +1,10 @@
 # marvin
 
 A c program that interprate c declaration.
+We did this program in a weekend.
 You can compile it in french or english:
  * `make en`
  * `make fr`
-We did this program in a weekend.
 
 ### Bonus
 
