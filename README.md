@@ -29,33 +29,33 @@ int
 Simples tests
 ```
 ./marvin "int a;"
-Declaration  of the variable of type integer named a
+Declaration of a variable of type integer named a
 
 ./marvin "int a; int b;"
-Declaration  of the variable of type integer named a
-Declaration  of the variable of type integer named b
+Declaration of a variable of type integer named a
+Declaration of a variable of type integer named b
 
 ./marvin "int a, b;"
-Declaration  of the variable of type integer named a and of the variable of type integer named b
+Declaration of a variable of type integer named a and of a variable of type integer named b
 ```
 Hard tests
 ```
 ./marvin "long (*f)(void)(char *str);"
-Declaration  of the pointer on function f who take of the variable of type void into parameter and resending a long
+Declaration of a pointer on function f who take a variable of type void into parameter and return a long
 
 ./marvin "int a, *b;"
-Declaration  of the variable of type integer named a and of the variable of type pointer on integer named b
+Declaration of a variable of type integer named a and a variable of type pointer on integer named b
 
 ./marvin "int a, (*b)(int c);"
-Declaration  of the variable of type integer named a and of the pointer on function b who take of the variable of type integer named c into parameter and resending a integer
+Declaration of a variable of type integer named a and a pointer on function b who take a variable of type integer named c into parameter and return a integer
 ```
 functions
 ```
 ./marvin "int aff_nbr(int a);"
-Declaration  of the function aff_nbr who take into paramter of the variable of type integer named a and resending a integer
+Declaration of a function aff_nbr who take into parameter a variable of type integer named a and return a integer
 
 ./marvin "t_ex *eve(void);"
-Declaration  of the function eve who take into paramter of the variable of type void and resending a pointer on t_ex
+Declaration of a function eve who take into parameter a variable of type void and return a pointer on t_ex
 ```
 
 ### Known Bugs
