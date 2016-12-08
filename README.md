@@ -61,7 +61,7 @@ Declaration  of the function eve who take into paramter of the variable of type 
 ### Known Bugs
 
  * Gramaticals mistakes
- * In some cases pointer on functions parsing don't work
+ * In some cases pointer on functions parsing doesn't work
  * Some errors are not catched
 
 ### Team
