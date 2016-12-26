@@ -40,8 +40,8 @@ Declaration of a variable of type integer named a and of a variable of type inte
 ```
 Hard tests
 ```
-./marvin "long (*f)(void)(char *str);"
-Declaration of a pointer on function f who take a variable of type void into parameter and return a long
+./marvin "long (*f)(char *str);"
+Declaration of a pointer on function f who take a variable of type pointer on character named str into parameter and return a long
 
 ./marvin "int a, *b;"
 Declaration of a variable of type integer named a and a variable of type pointer on integer named b
